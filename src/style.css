@@ -7,7 +7,7 @@
 
 body {
     font-family: "Times New Roman", Times, serif;
-    background-color: #dddddd;
+    background-color: #e4e1e1;
     color: #333;
     line-height: 1.6;
     
@@ -15,7 +15,7 @@ body {
 
 main {
     max-width: 1724px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 0px;
     width: 65%;
     height: 65%;
@@ -29,6 +29,31 @@ main {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+.boxedu{
+    padding-bottom: 7px;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.boxlinks{
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.boxlinks ul li{
+    font-size: 17px;
+}
+.boxlinks ul{
+    font-size: 17px;
+    color: #000000;
 }
 
 h1 {
@@ -49,17 +74,23 @@ h1 {
 .box .education h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #333;
+    color: #444444;
     margin-top: -15px;
 }
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #333;
+    color: #424242;
 }
 
+h3{
+    font-size: 20px;
+    margin-top: 15px;
+}
 
-
+.box ul{
+    margin-top: 5px;
+}
 a {
     color: #606264;
     text-decoration: none;
@@ -74,8 +105,8 @@ a[href="mailto:your.email@example.com"] {
 }
 
 a:hover {
-    color: #4096f2;
-    text-decoration: none;
+    color: #4e4d4d;;
+    text-decoration: underline;
 }
 
 ul {
@@ -133,7 +164,6 @@ ul {
 
 .education h2::before,
 .experience h2::before,
-.internships h2::before,
 .projects h2::before {
     content: '\f0a7';
     font-family: 'FontAwesome';
@@ -154,7 +184,7 @@ ul {
 }
 
 .education h3{
-    color: #606264;
+    color: #424242;;
     margin-top: -10px;
     font-weight: lighter;
     font-size: 18px;
@@ -179,19 +209,19 @@ ul {
 }
 
 .progress.excellent {
-    background-color: #2b2b2b; /* Green for excellent */
+    background-color: #424242; /* Green for excellent */
 }
 
 .progress.good {
-    background-color: #2b2b2b; /* Orange for good */
+    background-color: #424242; /* Orange for good */
 }
 
 .progress.fair {
-    background-color: #2b2b2b; /* Yellow for fair */
+    background-color: #424242; /* Yellow for fair */
 }
 
 .progress.beginner {
-    background-color: #2b2b2b; /* Red for beginner */
+    background-color: #424242; /* Red for beginner */
 }
 
 .boxskills{
@@ -207,11 +237,10 @@ ul {
 .boxskills ul li{
     margin-bottom: 18px;
     font-size: 17px;
-    
 }
 
+
 .experience h3,
-.internships h3,
 .projects h3 {
     color: #007bff;
 }
